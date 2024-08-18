@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "League", "League.csproj", "{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9A3188E-E335-42AB-B7C6-747FD8AF7AF9}
+	EndGlobalSection
+EndGlobal

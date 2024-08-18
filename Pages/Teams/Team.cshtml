@@ -1,0 +1,39 @@
+@page "{id}"
+@model TeamModel
+@{
+  ViewData["Title"] = "NFL Teams";
+}
+
+<div class="text-center">
+    <img src="~/image/nfl/logo/@(Model.CurrentTeam.TeamId).png" alt="NFL Logo" />
+    <h1 class="display-4">@Model.CurrentTeam.Name</h1>
+</div>
+
+<div class="pair">
+    <hr class="separator">
+    <label>Team ID: </label><p>@Model.CurrentTeam.TeamId</p>
+    <label>Division ID: </label><p>@Model.CurrentTeam.DivisionId</p>
+    <label>Location: </label><p>@Model.CurrentTeam.Location</p>
+    <label>Wins: </label><p>@Model.CurrentTeam.Win</p>
+    <label>Losses: </label><p>@Model.CurrentTeam.Loss</p>
+    <label>Ties: </label><p>@Model.CurrentTeam.Tie</p>
+    <label>Points For: </label><p>@Model.CurrentTeam.PointsFor</p>
+    <label>Points Against: </label><p>@Model.CurrentTeam.PointsAgainst</p>
+    <hr class="separator">
+    <label>Stadium: </label><p>@Model.CurrentTeam.Stadium</p>
+    <label>Capacity: </label><p>@Model.CurrentTeam.Capacity</p>
+    <label>Address: </label><p>@Model.CurrentTeam.Address</p>
+    <label>City: </label><p>@Model.CurrentTeam.City</p>
+    <label>State: </label><p>@Model.CurrentTeam.State</p>
+    <label>Zip: </label><p>@Model.CurrentTeam.Zip</p>
+    <label>Latitude: </label><p>@Model.CurrentTeam.Latitude</p>
+    <label>Longitude: </label><p>@Model.CurrentTeam.Longitude</p>
+</div>
+<div class="text-center">
+    <div class="image-container">
+        <img src="~/image/nfl/stadium/@(Model.CurrentTeam.TeamId).jpg" alt="@(Model.CurrentTeam.Name)'s Stadium" />
+    </div>
+    <div class="image-container">
+        <img src="~/image/nfl/seating/@(Model.CurrentTeam.TeamId).png" alt="@(Model.CurrentTeam.Name)'s Seating" />
+    </div>
+</div>

@@ -70,26 +70,25 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
-section.grid
+.teamListing
 {
-  font-size: smaller;
+    display: flex;
+    font-size: 1rem;
 }
 
-section.grid a
-{
-  text-decoration: none;
-  cursor: pointer;
-}
-section.grid a:hover
-{
-  background-color: cyan;
+.teamListing a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
 }
 
-section.grid a
-{
-  text-decoration: none;
-  cursor: pointer;
-  color:black;
+.teamListing:hover {
+    background-color: cyan;
+}
+
+
+.teamListing .teamElement {
+    flex: 1;
 }
 
 .starter
@@ -97,7 +96,43 @@ section.grid a
   font-weight: bold;
 }
 
-.favorite
+.favourite
 {
   background-color: gold;
+}
+
+.pair {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.pair label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.pair p {
+    margin: 0;
+    align-items: flex-start;
+}
+
+.separator {
+    grid-column: 1 / -1; /* Span the separator across all columns */
+    margin: 20px 0; /* Add space around the separator */
+}
+
+.image-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+    text-align: center; 
+}
+
+.image-container img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make images block-level to ensure they appear on separate lines */
+    margin-left: auto;
+    margin-right: auto;
 }

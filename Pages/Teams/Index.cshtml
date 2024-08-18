@@ -1,0 +1,83 @@
+@page
+@model IndexModel
+@{
+  ViewData["Title"] = "NFL Teams";
+}
+
+<div class="text-center">
+    <img src="~/image/nfl/nfl.png" alt="NFL Logo" />
+    <h1 class="display-4">League Teams List</h1>
+    <form method="get">
+        <label asp-for="SelectedFav">
+            Favourite Team:
+        </label>
+        <select asp-for="SelectedFav" asp-items="Model.Teams" onchange="this.form.submit();">
+            <option value="">None</option>
+        </select>
+    </form>
+    <div class="d-flex bg-primary text-white" style="display: flex;">
+        <div class="p-2" style="flex: 1">
+            Name
+        </div>
+        <div class="p-2" style="flex: 1">
+            Team ID
+        </div>
+        <div class="p-2" style="flex: 1">
+            Division ID
+        </div>
+        <div class="p-2" style="flex: 1">
+            Location
+        </div>
+        <div class="p-2" style="flex: 1">
+            Win
+        </div>
+        <div class="p-2" style="flex: 1">
+            Loss
+        </div>
+        <div class="p-2" style="flex: 1">
+            Tie
+        </div>
+        <div class="p-2" style="flex: 1">
+            Points For
+        </div>
+        <div class="p-2" style="flex: 1">
+            Points Against
+        </div>
+    </div>
+    @foreach (Team team in @Model.TeamList)
+    {
+        var isSelected = team.Name == Model.SelectedFav;
+
+        <a asp-page="./Team" asp-route-id="@team.TeamId" style="text-decoration: none; color: inherit;">
+            <div class="teamListing @(isSelected ? "favourite" : "")">
+                <div class="teamElement">
+                    @team.Name
+                </div>
+                <div class="teamElement">
+                    @team.TeamId
+                </div>
+                <div class="teamElement">
+                    @team.DivisionId
+                </div>
+                <div class="teamElement">
+                    @team.Location
+                </div>
+                <div class="teamElement">
+                    @team.Win
+                </div>
+                <div class="teamElement">
+                    @team.Loss
+                </div>
+                <div class="teamElement">
+                    @team.Tie
+                </div>
+                <div class="teamElement">
+                    @team.PointsFor
+                </div>
+                <div class="teamElement">
+                    @team.PointsAgainst
+                </div>
+            </div>
+        </a>
+    }
+</div>

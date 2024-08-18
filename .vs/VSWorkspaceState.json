@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Data",
+    "\\Models",
+    "\\Pages",
+    "\\Pages\\Players",
+    "\\Pages\\Shared",
+    "\\Pages\\Teams"
   ],
-  "SelectedNode": "\\C:\\GitHub Repository\\C#League",
   "PreviewInSolutionExplorer": false
 }
