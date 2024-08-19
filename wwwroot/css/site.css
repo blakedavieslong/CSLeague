@@ -74,6 +74,7 @@ body {
 {
     display: flex;
     font-size: 1rem;
+    align-items: center;
 }
 
 .teamListing a {
@@ -89,6 +90,18 @@ body {
 
 .teamListing .teamElement {
     flex: 1;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.stadium {
+    margin-top: 1rem;
+}
+
+.teamListing .conference {
+    flex: 2;
 }
 
 .starter
@@ -119,8 +132,8 @@ body {
 }
 
 .separator {
-    grid-column: 1 / -1; /* Span the separator across all columns */
-    margin: 20px 0; /* Add space around the separator */
+    grid-column: 1 / -1;
+    margin: 20px 0; 
 }
 
 .image-container {
@@ -130,9 +143,9 @@ body {
 }
 
 .image-container img {
-    max-width: 100%; /* Ensure images are responsive */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Make images block-level to ensure they appear on separate lines */
+    max-width: 100%;
+    height: auto;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }

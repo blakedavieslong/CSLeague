@@ -30,6 +30,20 @@ namespace League.Pages.Teams
 
         public async Task OnGetAsync()
         {
+            if (string.IsNullOrEmpty(SelectedFav))
+            {
+                SelectedFav = Request.Cookies["SelectedFavourite"];
+            } 
+            else if (SelectedFav == "None")
+            {
+                Response.Cookies.Delete("SelectedFavourite");
+            }
+            else
+            {
+                Response.Cookies.Append("SelectedFavourite", SelectedFav, new Microsoft.AspNetCore.Http.CookieOptions { Expires = DateTimeOffset.UtcNow.AddDays(364) });
+            }
+
+
             IQueryable<string> teamQuery = from t in _context.Teams
                                             orderby t.Name
                                             select t.Name;
@@ -37,6 +51,8 @@ namespace League.Pages.Teams
             Teams = new SelectList(await teamQuery.ToListAsync());
 
             TeamList = await _context.Teams
+                .Include(t => t.Division)
+                .ThenInclude(d => d.Conference)
                 .OrderBy(t => (t.Win == 0 && t.Loss == 0 ? 0 : (double)t.Win / t.Win + t.Loss + t.Tie))
                 .ThenBy(t => t.Win)
                 .ToListAsync();

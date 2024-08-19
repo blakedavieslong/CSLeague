@@ -1,0 +1,31 @@
+@page "{id}"
+@model PlayerModel
+@{
+    ViewData["Title"] = @Model.CurrentPlayer.Name;
+}
+
+<div class="text-center">
+    <img src="~/image/nfl/logo/@(Model.CurrentPlayer.Team.TeamId).png" alt="NFL Logo" />
+    <h1 class="display-4">@Model.CurrentPlayer.Name</h1>
+</div>
+
+<div class="pair">
+    <hr class="separator">
+    <label>Name: </label><p>@Model.CurrentPlayer.Name</p>
+    <label>Number: </label><p>@Model.CurrentPlayer.Number</p>
+    <label>Position: </label><p>@Model.CurrentPlayer.Position</p>
+    <label>Team: </label><p>@Model.CurrentPlayer.Team.Name</p>
+    <label>Height: </label><p>@Model.CurrentPlayer.Height</p>
+    <label>Weight: </label><p>@Model.CurrentPlayer.Weight</p>
+    <label>Age: </label><p>@Model.CurrentPlayer.Age</p>
+    <label>Birthday: </label><p>@Model.CurrentPlayer.BirthDate.Value.ToString("dd MMM yyyy")</p>
+    <label>Experience: </label><p>@Model.CurrentPlayer.Experience</p>
+    <label>Draft Year: </label><p>@Model.CurrentPlayer.DraftYear</p>
+    <label>Draft Round: </label><p>@Model.CurrentPlayer.DraftRound</p>
+    <label>Draft Pick: </label><p>@Model.CurrentPlayer.DraftPick</p>
+    <label>College: </label><p>@Model.CurrentPlayer.College</p>
+    <label>State: </label><p>@Model.CurrentPlayer.State</p>
+    <label>Rank: </label><p>@Model.CurrentPlayer.Rank</p>
+    <label>Rating: </label><p>@Model.CurrentPlayer.Rating</p>
+    <label>Depth: </label><p>@Model.CurrentPlayer.Depth</p>
+</div>

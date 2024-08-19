@@ -12,18 +12,18 @@
             Favourite Team:
         </label>
         <select asp-for="SelectedFav" asp-items="Model.Teams" onchange="this.form.submit();">
-            <option value="">None</option>
+            <option value="None">None</option>
         </select>
     </form>
-    <div class="d-flex bg-primary text-white" style="display: flex;">
+    <div class="d-flex bg-primary text-white" style="display: flex; align-items: center;">
         <div class="p-2" style="flex: 1">
             Name
         </div>
         <div class="p-2" style="flex: 1">
-            Team ID
+            Division
         </div>
-        <div class="p-2" style="flex: 1">
-            Division ID
+        <div class="p-2" style="flex: 2">
+            Conference
         </div>
         <div class="p-2" style="flex: 1">
             Location
@@ -54,10 +54,10 @@
                     @team.Name
                 </div>
                 <div class="teamElement">
-                    @team.TeamId
+                    @team.Division.Name
                 </div>
-                <div class="teamElement">
-                    @team.DivisionId
+                <div class="teamElement conference">
+                    @team.Division.Conference.Name
                 </div>
                 <div class="teamElement">
                     @team.Location

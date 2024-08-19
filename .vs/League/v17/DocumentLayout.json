@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\GitHub Repository\\C#League\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -11,12 +23,28 @@
       "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\teams\\team.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\players\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\players\\player.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\players\\player.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\players\\player.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\players\\player.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\teams\\team.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\teams\\team.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\teams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\players\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|solutionrelative:pages\\players\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71EB21FF-FB4F-48A9-9DC8-8BA53486D665}|League.csproj|c:\\github repository\\c#league\\pages\\teams\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,63 +63,158 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T16:25:20.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "Pages\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T16:24:34.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T16:23:48.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Player.cshtml.cs",
+              "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Players\\Player.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Players\\Player.cshtml.cs",
+              "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Players\\Player.cshtml.cs",
+              "RelativeToolTip": "Pages\\Players\\Player.cshtml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T16:06:03.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Player.cshtml",
+              "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Players\\Player.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Players\\Player.cshtml",
+              "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Players\\Player.cshtml",
+              "RelativeToolTip": "Pages\\Players\\Player.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T16:01:24.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Players\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Players\\Index.cshtml.cs",
+              "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Players\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Players\\Index.cshtml.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAqwFAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:47:09.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Players\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Players\\Index.cshtml",
+              "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Players\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Players\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T13:46:53.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "site.css",
               "DocumentMoniker": "C:\\GitHub Repository\\C#League\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\GitHub Repository\\C#League\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAmwH8AAAAXAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAmwGMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-08-18T21:37:35.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Teams\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Teams\\Index.cshtml",
               "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Teams\\Index.cshtml",
               "RelativeToolTip": "Pages\\Teams\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T21:05:12.938Z"
+              "WhenOpened": "2024-08-18T21:05:12.938Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Teams\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Teams\\Index.cshtml.cs",
               "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Teams\\Index.cshtml.cs",
               "RelativeToolTip": "Pages\\Teams\\Index.cshtml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwB4AAAAmAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T21:05:13.482Z"
+              "WhenOpened": "2024-08-18T21:05:13.482Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Team.cshtml.cs",
               "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Teams\\Team.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Teams\\Team.cshtml.cs",
               "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Teams\\Team.cshtml.cs",
               "RelativeToolTip": "Pages\\Teams\\Team.cshtml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwC4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T21:04:31.535Z"
+              "WhenOpened": "2024-08-18T21:04:31.535Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Team.cshtml",
               "DocumentMoniker": "C:\\GitHub Repository\\C#League\\Pages\\Teams\\Team.cshtml",
               "RelativeDocumentMoniker": "Pages\\Teams\\Team.cshtml",
               "ToolTip": "C:\\GitHub Repository\\C#League\\Pages\\Teams\\Team.cshtml",
               "RelativeToolTip": "Pages\\Teams\\Team.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAGAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-18T21:04:26.262Z"
+              "WhenOpened": "2024-08-18T21:04:26.262Z",
+              "EditorCaption": ""
             }
           ]
         }

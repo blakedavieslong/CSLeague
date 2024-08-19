@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using League.Data;
 using League.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Linq;
 
 namespace League.Pages.Teams
 {
@@ -13,6 +15,8 @@ namespace League.Pages.Teams
         private readonly LeagueContext _context;
 
         public Team CurrentTeam { get; set; }
+
+        public IList<Player> PlayerList { get; set; }
 
         public TeamModel(LeagueContext context)
         {
@@ -32,6 +36,10 @@ namespace League.Pages.Teams
             {
                 return NotFound($"No team found with ID: {id}");
             }
+
+            PlayerList = await _context.Players
+                .Where(p => p.TeamId == id)
+                .ToListAsync();
 
             return Page();
         }

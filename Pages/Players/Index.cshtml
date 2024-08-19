@@ -1,0 +1,77 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "NFL Players";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Players</h1>
+    <form method="get">
+        <label asp-for="SelectedTeam">
+            Search for Team:
+        </label>
+        <select asp-for="SelectedTeam" asp-items="Model.Teams" onchange="this.form.submit();">
+            <option value="">None</option>
+        </select>
+        <label asp-for="SelectedPosition">
+            Search for Position:
+        </label>
+        <select asp-for="SelectedPosition" asp-items="Model.Positions" onchange="this.form.submit();">
+            <option value="">None</option>
+        </select>
+        <label asp-for="SearchName">
+            Search for Name:
+        </label>
+        <input asp-for="SearchName" type="text" />
+        <input type="submit" value="Search" />
+        <label asp-for="OrderBy">
+            Order By:
+        </label>
+        <select asp-for="OrderBy" onchange="this.form.submit();">
+            <option value="Name">Name</option>
+            <option value="Depth">Depth</option>
+            <option value="Team">Team</option>
+        </select>
+    </form>
+    <div class="d-flex bg-primary text-white" style="display: flex; align-items: center;">
+        <div class="p-2" style="flex: 1">
+            Name
+        </div>
+        <div class="p-2" style="flex: 1">
+            Number
+        </div>
+        <div class="p-2" style="flex: 1">
+            Position
+        </div>
+        <div class="p-2" style="flex: 1">
+            Team
+        </div>
+        <div class="p-2" style="flex: 1">
+            Depth
+        </div>
+    </div>
+    @foreach (Player player in @Model.PlayerList)
+    {
+        var isSelected = player.Team.Name == Model.SelectedFav;
+
+        <a asp-page="./Player" asp-route-id="@player.PlayerId" style="text-decoration: none; color: inherit;">
+            <div class="teamListing @(player.Depth == 1 ? "bold" : "") @(isSelected ? "favourite" : "")">
+                <div class="teamElement">
+                    @player.Name
+                </div>
+                <div class="teamElement">
+                    @player.Number
+                </div>
+                <div class="teamElement">
+                    @player.Position
+                </div>
+                <div class="teamElement">
+                    @player.Team.Name
+                </div>
+                <div class="teamElement">
+                    @player.Depth
+                </div>
+            </div>
+        </a>
+    }
+</div>

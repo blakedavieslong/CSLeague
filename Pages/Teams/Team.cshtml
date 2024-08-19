@@ -11,7 +11,7 @@
 
 <div class="pair">
     <hr class="separator">
-    <label>Team ID: </label><p>@Model.CurrentTeam.TeamId</p>
+    <label>Team Name: </label><p>@Model.CurrentTeam.Name</p>
     <label>Division ID: </label><p>@Model.CurrentTeam.DivisionId</p>
     <label>Location: </label><p>@Model.CurrentTeam.Location</p>
     <label>Wins: </label><p>@Model.CurrentTeam.Win</p>
@@ -19,7 +19,69 @@
     <label>Ties: </label><p>@Model.CurrentTeam.Tie</p>
     <label>Points For: </label><p>@Model.CurrentTeam.PointsFor</p>
     <label>Points Against: </label><p>@Model.CurrentTeam.PointsAgainst</p>
-    <hr class="separator">
+</div>
+
+<div class="text-center">
+    <h2 class="display-5">Players</h2>
+    <div class="d-flex bg-primary text-white" style="display: flex;">
+        <div class="p-2" style="flex: 1">
+            Name
+        </div>
+        <div class="p-2" style="flex: 1">
+            Position
+        </div>
+        <div class="p-2" style="flex: 1">
+            Height
+        </div>
+        <div class="p-2" style="flex: 1">
+            Weight
+        </div>
+        <div class="p-2" style="flex: 1">
+            Age
+        </div>
+        <div class="p-2" style="flex: 1">
+            Birth Date
+        </div>
+        <div class="p-2" style="flex: 1">
+            Rating
+        </div>
+        <div class="p-2" style="flex: 1">
+            Rank
+        </div>
+    </div>
+    @foreach (Player player in @Model.PlayerList)
+    {
+        <a asp-page="./Team" asp-route-id="@player.PlayerId" style="text-decoration: none; color: inherit;">
+            <div class="teamListing">
+                <div class="teamElement">
+                    @player.Name
+                </div>
+                <div class="teamElement">
+                    @player.Position
+                </div>
+                <div class="teamElement">
+                    @player.Height
+                </div>
+                <div class="teamElement">
+                    @player.Weight
+                </div>
+                <div class="teamElement">
+                    @player.Age
+                </div>
+                <div class="teamElement">
+                    @player.BirthDate.Value.ToString("dd MMM yyyy")
+                </div>
+                <div class="teamElement">
+                    @player.Rating
+                </div>
+                <div class="teamElement">
+                    @player.Rank
+                </div>
+            </div>
+        </a>
+    }
+</div>
+<div class="pair stadium">
     <label>Stadium: </label><p>@Model.CurrentTeam.Stadium</p>
     <label>Capacity: </label><p>@Model.CurrentTeam.Capacity</p>
     <label>Address: </label><p>@Model.CurrentTeam.Address</p>
